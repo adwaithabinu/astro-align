@@ -101,11 +101,12 @@ class HomePage extends StatelessWidget {
                     .black54), // Add a divider between top and bottom options
             ListTile(
               title: Text(
-                'Sign Out',
+                'Login',
                 style: TextStyle(color: Colors.black87),
               ),
               onTap: () {
-                // Handle the sign out option
+                Navigator.pushNamed(
+                    context, '/login'); // Handle the sign out option
               },
             ),
           ],
