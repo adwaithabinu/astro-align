@@ -40,7 +40,11 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_svg: ^2.0.9
   icalendar_parser: ^2.0.0
-
+  firebase_core: any
+  cloud_firestore: ^4.15.9
+  firebase_auth: ^4.17.9
+  firebase_storage: ^11.6.10
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -62,7 +62,7 @@ class _MapScreenState extends State<MapScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Learning Corner',
+          'ISS Location',
           style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Colors.indigo.shade900,
